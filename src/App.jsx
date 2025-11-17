@@ -1,7 +1,7 @@
 import React from 'react'
 import Header from './components/Header'
-import Responder from './components/Responder'
-import Outreach from './components/Outreach'
+import ProductShowcase from './components/ProductShowcase'
+import Benefits from './components/Benefits'
 
 function App() {
   return (
@@ -10,8 +10,8 @@ function App() {
         <Header />
 
         <div className="mt-6 grid gap-6">
-          <Responder />
-          <Outreach />
+          <ProductShowcase />
+          <Benefits />
         </div>
 
         <footer className="mt-10 text-center text-xs text-slate-600">
